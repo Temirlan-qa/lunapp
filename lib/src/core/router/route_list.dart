@@ -9,7 +9,7 @@ List<GoRoute> _routes = [
       GoRoute(
         name: RouteNames.lesson,
         path: RoutePaths.lesson,
-        builder: (context, state) => LessonScreen(),
+        builder: (context, state) => const LessonScreen(),
       ),
     ],
   ),
